@@ -17,6 +17,7 @@ SRC_URI += "file://001-introspection.m4-prefix-pkgconfig-paths-with-PKG_CON.patc
 			file://003-configure-allow-to-disable-libssh2.patch \
 			file://004-rtmp-fix-seeking-and-potential-segfault.patch \
 			file://005-rtmp-hls-tsdemux-fix.patch \
+			file://006-fix-compile.patch \
 			"
 
 S = "${WORKDIR}/git"
