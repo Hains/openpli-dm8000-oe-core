@@ -1,0 +1,11 @@
+diff --git a/gst/mpegtsmux/gstmpegtsmux.c b/gst/mpegtsmux/gstmpegtsmux.c
+--- a/gst/mpegtsmux/gstmpegtsmux.c
++++ b/gst/mpegtsmux/gstmpegtsmux.c
+@@ -83,6 +83,7 @@
+ */
+ 
+ #include "gstmpegtsmux.h"
++#include <string.h>
+ 
+ #define MPEGTSMUX_DEFAULT_M2TS         FALSE
+ 
